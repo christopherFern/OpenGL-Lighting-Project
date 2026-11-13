@@ -1,0 +1,39 @@
+﻿  main.cpp
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\main.cpp(60,2): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\main.cpp(107,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\main.cpp(144,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\main.cpp(152,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\main.cpp(185,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\main.cpp(186,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Shaders.cpp
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\Shaders.cpp(35,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\Shaders.cpp(24,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  tiny_obj_loader.cc
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\tiny_obj_loader.cc(85,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\tiny_obj_loader.cc(86,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\tiny_obj_loader.cc(200,20): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\tiny_obj_loader.cc(468,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\tiny_obj_loader.cc(614,85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\tiny_obj_loader.cc(614,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\tiny_obj_loader.cc(614,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\tiny_obj_loader.cc(616,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4267: 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4267:             _Ty2=int
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54): warning C4267:         ]
+  (compiling source file 'tiny_obj_loader.cc')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\utility(277,54):
+      the template instantiation context (the oldest one first) is
+          C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\tiny_obj_loader.cc(327,58):
+          see reference to function template instantiation 'std::pair<std::string,int>::pair<std::string&,unsigned __int64,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Other1=std::string &,
+              _Other2=unsigned __int64
+          ]
+              C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\tiny_obj_loader.cc(327,30):
+              see the first reference to 'std::pair<std::string,int>::pair' in 'tinyobj::LoadMtl'
+  
+  Generating Code...
+  Example8a.vcxproj -> C:\Users\chris\OneDrive\Desktop\Graphics Assignments\Assignment 2\x64\Debug\Example8a.exe
